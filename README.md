@@ -4,19 +4,19 @@ Predicting whether a patient has diabetes using **logistic regression**, trained
 algorithms implemented **from scratch with NumPy** (no scikit-learn).
 
 ## Dataset
-[Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) from Kaggle.
+[Pima Indians Diabetes (CSV)](https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv) from Kaggle.
 
 | Property | Value |
 |---|---|
 | Samples | 768 patients |
 | Features | 8 (Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age) |
-| Target | `Outcome`: 1 = diabetes, 0 = no diabetes |
+| Target | `Outcome` (last column, the file has no header): 1 = diabetes, 0 = no diabetes |
 | Classes | 500 negative / 268 positive |
 
 ## Repository structure
 ```
 ├── data/
-│   └── diabetes.csv
+│   └── pima-indians-diabetes.csv
 ├── notebooks/
 │   ├── 1_gradient_descent.ipynb   # Batch Gradient Descent
 │   ├── 2_sgd.ipynb                # Stochastic Gradient Descent
